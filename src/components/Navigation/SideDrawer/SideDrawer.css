@@ -9,13 +9,7 @@
     background: #fff;
     padding: 32px 16px;
     box-sizing: border-box;
-    transition: transform 03.s ease-in-out;
-}
-
-@media (min-width: 500px) {
-    .SideDrawer {
-        display: none;
-    }
+    transition: transform 0.3s ease-in-out;
 }
 
 .Open {
@@ -24,4 +18,14 @@
 
 .Close { 
     transform: translateX(-100%);
+}
+
+.Logo {
+    margin-bottom: 42px;
+}
+
+@media (min-width: 500px) {
+    .SideDrawer {
+        display: none;
+    }
 }

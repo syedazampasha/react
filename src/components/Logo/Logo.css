@@ -1,10 +1,26 @@
 .Logo {
-    background: #fff;
-    padding: 8px;
-    height: 80%;
-    box-sizing: border-box;
-    border-radius: 5px;
+    float: right;
 }
+
 .Logo img {
-    height: 100%;
+    width :20%;
+    height: auto;
+    float: right;
+}   
+
+@media (min-width:500px) {
+    .Logo {
+        background: #fff;
+        padding: 8px;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 100px;
+        text-align: center;
+        
+    }
+
+    .Logo img {
+        height: 100%;
+    }
 }
